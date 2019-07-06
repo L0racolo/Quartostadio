@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quartostadio</string>
+    <string name="may_i_ask_you_phone_number">May I ask you phone number?</string>
+    <string name="enter_your_number">enter your number</string>
+    <string name="may_i_ask_you_phone_number_may_i_ask_you_phone_numbervmay_i_ask_you_phone_number">May I ask you phone number May I ask you phone numbervMay I ask you phone number</string>
+    <string name="continua">continue</string>
+    <string name="complete_the_form_in_few_steps_you_ll_be_in">Complete the form, in few steps you\'ll be in</string>
+    <string name="please_fill_the_form_will_be_your_experience_unique_and_fully_effective">Please, fill the form, will be your experience unique and fully effective.</string>
+    <string name="proceed">Proceed</string>
+    <string name="username">username</string>
+    <string name="name">name</string>
+    <string name="surname">surname</string>
+    <string name="lastname">lastname</string>
+    <string name="postcode">postcode</string>
+
+
+</resources>

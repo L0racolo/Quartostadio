@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "99864307967",
+    "firebase_url": "https://quartostadio-3d9f2.firebaseio.com",
+    "project_id": "quartostadio-3d9f2",
+    "storage_bucket": "quartostadio-3d9f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99864307967:android:93939140783db730",
+        "android_client_info": {
+          "package_name": "com.centreecity.quartostadio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99864307967-mjf1mfbmffq48jrjo460ce6bofgbi5cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.centreecity.quartostadio",
+            "certificate_hash": "015b3f5f0e3eddd5b618cbb6e5f0a6c68a0b67cd"
+          }
+        },
+        {
+          "client_id": "99864307967-g3stvh0gb3q0jjhegrof06br2k5s5bfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABBkmIDsd5KpDmwdFXxIbAOYe4EBq1MCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99864307967-g3stvh0gb3q0jjhegrof06br2k5s5bfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

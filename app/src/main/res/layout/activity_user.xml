@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:padding="20dp" >
+
+
+      <TextView
+
+        android:id="@+id/textViewTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/complete_the_form_in_few_steps_you_ll_be_in"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp" />
+
+        <TextView
+
+        android:id="@+id/textViewDescrip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="@string/please_fill_the_form_will_be_your_experience_unique_and_fully_effective"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorBlack"/>
+
+
+        <EditText
+
+        android:id="@+id/editTextUsername"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:autofillHints=""  />
+
+        <EditText
+
+        android:id="@+id/editTextName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:autofillHints=""  />
+
+
+        <EditText
+
+        android:id="@+id/editTextLastname"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:hint="@string/lastname"
+        android:inputType="textPersonName"
+        android:orientation="horizontal"
+        android:autofillHints=""  />
+
+
+        <EditText
+
+        android:id="@+id/postcode"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="10dp"
+        android:hint="@string/postcode"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints=""  />
+
+
+        <Button
+
+            android:id="@+id/buttonProceed"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_round"
+            android:onClick="proceeded"
+            android:text="@string/proceed"
+            android:textColor="#ffffff" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
